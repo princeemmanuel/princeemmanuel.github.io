@@ -27,6 +27,14 @@
 		<img src="pics2.jpg">
 		<img src="pics3.jpg">
 	</div><br><br><br>
+	<div class="spinner-wrapper">
+		<div class="spinner"></div>
+	</div>
+	<script>
+		let spinnerWrapper = document.querySelector('.spinner-wrapper');
+		window.addEventlistener('load', function() { 
+			spinnerWrapper.parentElement.removeChild(spinnerWrapper);
+	</script>
 		<footer>Powered By Tochson</footer>
 </body>
 </html>
